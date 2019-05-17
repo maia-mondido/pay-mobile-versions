@@ -1,0 +1,19 @@
+.btn {
+    background: #00075A;
+    color:#fff;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    margin: 10px 0;
+}
+  
+.btn:hover {
+    background: #e5f2ff;
+    color: #8DB8E8;
+}
+  
+.btn:disabled {
+    background: #B2B3CC;
+    color: #E8E8EF;
+}
+  

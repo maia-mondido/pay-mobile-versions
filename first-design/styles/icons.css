@@ -1,0 +1,25 @@
+.img-swish {
+    width: 25%;
+  }
+
+  .img-paypal {
+    width: 25%;
+  }
+
+  .img-invoice {
+    width: 30%;
+  }
+
+  .img-masterpass {
+    width: 30%;
+  }
+
+  .img-masterpass-btn {
+    width: 50%;
+   
+  }
+  
+  .img-card, .img-swish, .img-paypal, .img-invoice, .img-masterpass  {
+    float: right;
+
+  }
