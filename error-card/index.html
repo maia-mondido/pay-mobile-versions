@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Pay mobile</title>
+</head>
+<body>
+    <div class="container-fluid">
+
+    <!-- Header -->
+    <div class="row header-container">
+        <img src="assets/White.svg" alt="card" class="logo"/>
+    </div>
+    <!-- Order summary -->
+    <div class="row mx-auto">
+    <div class="card card-order col-xs-12 col-md-4 col-lg-3 order-sm-last" >
+            <div class="card-body row card-content">
+                <div class="col-xs-3 ">
+                    <h4 class="card-title">Order summary</h4>
+                </div>
+                <div class="offset-1 mr-0">
+                    1 234,00 SEK
+                </div>          
+            </div> 
+            
+            <div class="row card-content">
+                <div class="col-xs-12 ">
+                    <h5 class="card-title">Payment details</h5>
+                </div>
+            </div>
+            <div class="row card-content">
+                <div class="col-xs-12 ">
+                    <small>Payee</small>
+                </div>
+            </div>
+            <div class="row card-content content-border">
+                <div class="col-xs-12 ">
+                    <p>Merchant 1(1234567-8)</p>
+                </div>
+            </div>
+            <div class="row card-content">
+                <div class="col-xs-12 ">
+                    <small>Payer</small>
+                </div>
+            </div>
+            <div class="row card-content content-border">
+                <div class="col-xs-12 ">
+                    <p>John Doe</p>
+                </div>
+            </div>
+            <div class="row card-content">
+                <div class="col-xs-12 ">
+                    <small>Payment number</small>
+                </div>
+            </div>
+            <div class="row card-content content-border">
+                <div class="col-xs-12 ">
+                    <p>1234567890</p>
+                </div>
+            </div>
+            <div class="row card-content">
+                <div class="col-xs-12 ">
+                    <small>Timestamp</small>
+                </div>
+            </div>
+            <div class="row card-content content-border">
+                <div class="col-xs-12 ">
+                    <p>2019-03-26 12:14:46</p>
+                </div>
+            </div>
+            <div class="card-body row">
+                <div class="col-xs-12">
+                    <h5 class="card-title">Basket items</h5>
+                </div>
+            </div>
+            <div class="row card-content margin-bottom">
+                <div class="col-xs-6 ">
+                    <small class="special-font">Product name</small>
+                </div>
+                <div class="offset-2 mr-1">
+                    <small class="special-font ml-2">1 234,00 SEK</small>
+                </div>
+            </div>
+            <div class="row card-content">
+                <div class="col-xs-6 ">
+                    <small>Price: 1 234,00 SEK</small>
+                </div>
+                <div class="offset-2 mr-1">
+                    <small>Disc. %: 0.00%</small>
+                </div>
+            </div>
+            <div class="row card-content content-border">
+                <div class="col-xs-6 ">
+                    <small>Qty: 1</small>
+                </div>
+                <div class="offset-5 mr-2">
+                    <small>VAT: 23.00%</small>
+                </div>
+            </div> 
+            
+            <div class="row details">
+                <div class="col-xs-12 ">
+                    <h6 class="see-details">See order details 
+                        <span class="container-down"><span class="triangle-down"></span></span>
+                    </h6>
+                </div>
+            </div> 
+            <div class="row details details-hide">
+                <div class="col-xs-12 ">
+                    <h6 class="hide-details">Hide order details 
+                        <span class="container-up"> <span class="triangle-up"></span></span>
+                    </h6>
+                </div>
+            </div> 
+        </div>
+        <!-- Payment error  -->
+        <div class="card card-error col-xs-12 col-md-7 col-lg-5 mt-3 mr-sm-3" >
+                <div class="mx-auto mt-5">
+                    <div class="checkmark-circle mx-auto my-auto">
+                        <div class="background"></div>
+                        <div class="checkmark draw"></div>
+                    </div> 
+                </div>
+                <div class="mx-auto mt-3">  
+                    <h5>Payment error</h5>
+                </div>
+                <div class="mx-auto text-center">  
+                    <p class="mx-auto px-5">There was an error in processing your payment, please try again or contact the webshop.</p>   
+                </div>
+                <div class="mx-auto">  
+                    <input type="submit" class="btn btn-goback mx-auto" value="Go back to webshop" />     
+                </div>
+            </div>  
+        </div>
+
+        <!-- Footer -->
+
+        <footer class="footer col-xs-12 col-sm-7 col-lg-5 mx-1 mt-2">
+                <p>This payment service is delivered by Nordea Bank Abp. We are responsible for receiving the transaction, 
+                        processing and transmission of the transaction to the merchant acquirers.</p>
+                <a href="https://www.nordea.se/">Click here to read more about how your personal data is handled</a>
+                <p><a href="https://www.nordea.se/">Nordea Bank Abp, Business ID 2858394-9</a></p>
+        </footer>
+    </div>
+
+</body>
+</html>

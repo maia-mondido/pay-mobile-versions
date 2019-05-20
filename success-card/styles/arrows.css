@@ -1,0 +1,53 @@
+/* Arrow styles */
+  
+.container-down {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 0;
+    left: calc(100% + 2px);
+    
+  }
+  
+  .triangle-down {
+    position: absolute;
+    margin: auto;
+    top: 3px;
+    left: 7px;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+  }
+  
+  .container-up {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 0;
+    left: calc(100% + 2px);
+
+  }
+  
+  .triangle-up {
+    position: absolute;
+    margin: auto;
+    top: 8px;
+    left: 7px;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    transform: rotate(223deg);
+    -webkit-transform: rotate(223deg);
+    -moz-transform: rotate(223deg);
+    -o-transform: rotate(223deg);
+    -ms-transform: rotate(223deg);
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+  }

@@ -1,0 +1,52 @@
+/* Checkmark */
+.checkmark-circle {
+    width: 48px;
+    height: 48px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .checkmark-circle .background {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 3px solid #00005E;
+    background: #fff;
+    position: absolute;
+  }
+
+  .checkmark-circle .checkmark.draw:after {
+    -webkit-transform: scaleX(-1) rotate(135deg);
+    -moz-transform: scaleX(-1) rotate(135deg);
+    -ms-transform: scaleX(-1) rotate(135deg);
+    -o-transform: scaleX(-1) rotate(135deg);
+    transform: scaleX(-1) rotate(135deg);
+   
+  }
+  .checkmark-circle .checkmark:after {
+    opacity: 1;
+    height: 20px;
+    width: 10px;
+    -webkit-transform-origin: left top;
+    -moz-transform-origin: left top;
+    -ms-transform-origin: left top;
+    -o-transform-origin: left top;
+    transform-origin: left top;
+    border-right: 3px solid #00005E;
+    border-top: 3px solid #00005E;
+    border-top-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    content: '';
+    top: 25px;
+    left: 14px;
+    position: absolute;
+  }
+
+
+  .checkmark-circle .background-hover{
+    border: 3px solid #00005E;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+  }
+  

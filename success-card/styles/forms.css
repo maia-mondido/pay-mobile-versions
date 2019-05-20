@@ -21,19 +21,21 @@
   .details-hide {
     padding: 20px 0;
   }
-  
+
+  .card-success {
+    border-radius: 8px;
+    height: 350px;
+  }
   
   .card-order {
     background: #00075A;
     color: #fff;
-    margin: 15px 0;
-    max-height: 10vh;
-    max-height: 90vh;
+    margin: 15px 0 0;
     border-radius: 10px;
   }
   
   .card-select-pay-method {
-    margin: 15px 0 0;
+    margin: 15px 0;
     border-radius: 10px;
   }
   
@@ -53,13 +55,6 @@
     border-bottom: 1px #ccc solid;
     width: 87%;
     margin-left: 25px;
-  }
-
-  .invoice-border-select-top {
-    border-top: 1px #ccc solid;
-    width: 87%;
-    margin-left: 25px;
-    padding-top: 20px;
   }
   
   .invoice-condition {
@@ -89,49 +84,11 @@
   }
   
   
-  input[type=text], input[type=number], input[type=date]{
+  input[type=text], input[type=number] {
     border-radius:  2px;
     margin: 7px 0;
   }
   
-
-  @media screen and (min-width: 500px) {
-    input[type="text"], input[type="number"], input[type="date"] {
-      max-width: 359px;
-    }
-    
-    .field-full, .title-center {
-      margin: auto 100px;
-    }
-    .field-half {
-      margin: auto 85px;
-    }
-
-    .invoice-border-select {
-      border-bottom: 1px #ccc solid;
-      margin-left: 35px;
-    }
-  
-    .invoice-border-select-top {
-      border-top: 1px #ccc solid;
-      margin-left: 35px;
-    }
-
-    .btn {
-      margin: auto 160px;
-    }
-
-    .card-select-pay-method {
-      margin-left: 15%;
-
-    }
-    footer {
-      position: relative;
-      left: 15%;
-
-    }
-    
-  }  
 
   
  

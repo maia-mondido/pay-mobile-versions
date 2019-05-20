@@ -1,0 +1,19 @@
+/* Header styles */
+.header-container {
+    background: #00075A;
+}
+
+.logo {
+    width: 50%;
+    padding: 10px;
+    
+}
+
+@media only screen and (min-width: 600px) {
+    .logo {
+      width: 25%;
+      padding: 10px;
+      margin-left: calc(50% - 200px);
+    }
+}
+  
