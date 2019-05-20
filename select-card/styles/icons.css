@@ -24,6 +24,25 @@
 
   }
 
+  .inner-content {
+    border: 1px solid #00075A;
+    height: 5px; 
+    cursor: pointer;     
+    width: 10px;
+    padding: 0 7px 1px;
+    border-radius: 50%;
+}
+
+.inner-content:hover {
+  background-color: #DCEDFF;
+}
+
+.circle {
+  color: #00075A;
+  font-size: 20px;
+  margin-left: -15px;
+}
+
   @media screen and (min-width: 500px) {
     .img-swish {
       width: 15%;

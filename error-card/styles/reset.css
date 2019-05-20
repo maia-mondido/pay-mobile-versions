@@ -58,13 +58,13 @@ footer {
 
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 992px) {
     .card-error {
         margin-left: 15%;
     }
     footer {
         position: relative;
-        top:-270px;
+        top: -270px;
         left: 15%;
     }
 }

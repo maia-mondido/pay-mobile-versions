@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Nordea Sans Small Web Regular';
+    src: local('NordeaSansSmallWeb-Regular');
+    font-weight: 500;
+    font-size: 16px;
+
+  }
+  @font-face {
+    font-family: 'Nordea Sans Small Web Light';
+    src: local('NordeaSansSmallWeb-Light');
+    font-weight: 500;
+    font-size: 16px;
+  }
+  @font-face {
+    font-family: 'Nordea Sans Small Web Black';
+    src: local('NordeaSansSmallWeb-Black');
+  }
+  @font-face {
+    font-family: 'Nordea Sans Small Web Bold';
+    src: local('NordeaSansSmallWeb-Bold');
+  }
+  @font-face {
+    font-family: 'Nordea Sans Small Web Bold Italic';
+    src: local('NordeaSansSmallWeb-BoldItalic');
+  }
+  @font-face {
+    font-family: 'Nordea Sans Small Web Italic';
+    src: local('NordeaSansSmallWeb-Italic');
+  }
+  @font-face {
+    font-family: 'Nordea Sans Small Web Light Italic';
+    src: local('NordeaSansSmallWeb-LightItalic');
+  }
+  @font-face {
+    font-family: 'Nordea Sans Small Web Medium';
+    src: local('NordeaSansSmallWeb-Medium');
+  }
+  @font-face {
+    font-family: 'Nordea Sans Small Web Medium Italic';
+    src: local('NordeaSansSmallWeb-MediumItalic');
+  }
+
+  @font-face {
+    font-family: 'Nordea Sans Large Web Regular';
+    src: local('NordeaSansLargeWeb-Regular');
+  }
+  @font-face {
+    font-family: 'Nordea Sans Large Web Light';
+    src: local('NordeaSansLargeWeb-Light');
+  }
+  @font-face {
+    font-family: 'Nordea Sans Large Web Black';
+    src: local('NordeaSansLargeWeb-Black');
+  }
+  @font-face {
+    font-family: 'Nordea Sans Large Web Bold';
+    src: local('NordeaSansLargeWeb-Bold');
+  }
+  @font-face {
+    font-family: 'Nordea Sans Large Web Bold Italic';
+    src: local('NordeaSansLargeWeb-BoldItalic');
+  }
+  @font-face {
+    font-family: 'Nordea Sans Large Web Italic';
+    src: local('NordeaSansLargeWeb-Italic');
+  }
+  @font-face {
+    font-family: 'Nordea Sans Large Web Light Italic';
+    src: local('NordeaSansLargeWeb-LightItalic');
+  }
+  @font-face {
+    font-family: 'Nordea Sans Large Web Medium';
+    src: local('NordeaSansLargeWeb-Medium');
+  }
+  @font-face {
+    font-family: 'Nordea Sans Large Web Medium Italic';
+    src: local('NordeaSansLargeWeb-MediumItalic');
+  }

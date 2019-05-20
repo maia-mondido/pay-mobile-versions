@@ -51,14 +51,11 @@
   
   .invoice-border-select {
     border-bottom: 1px #ccc solid;
-    width: 87%;
-    margin-left: 25px;
+   
   }
 
   .invoice-border-select-top {
     border-top: 1px #ccc solid;
-    width: 87%;
-    margin-left: 25px;
     padding-top: 20px;
   }
   
@@ -121,17 +118,23 @@
       margin: auto 160px;
     }
 
+    
+  }  
+
+
+  @media only screen and (min-width: 992px) {
     .card-select-pay-method {
       margin-left: 15%;
 
     }
+    
     footer {
-      position: relative;
-      left: 15%;
+       
+        left: 15%;
 
     }
-    
-  }  
+
+}
 
   
  
