@@ -1,43 +1,51 @@
 /* Custom checkbox */
     
-.checkbox {
-    display: block;
-    margin-top: 20px;
-    cursor: pointer;
-  }
-  .checkbox input[type="checkbox"] {
-    display: none;
-  }
-  
-  .checkbox input[type="checkbox"]:checked + .custom-checkbox::before,
-  .checkbox input[type="checkbox"]:checked + .custom-checkbox::after {
-    display: block;
-  }
-  .checkbox .custom-checkbox {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    border: 2px solid #0000a0;
-    vertical-align: middle;
-    margin-top: -2px;
-    position: relative;
-  }
-  .checkbox .custom-checkbox::before,
-  .checkbox .custom-checkbox::after {
-    content: "";
-    position: absolute;
-    display: none;
-    background: #0000a0;
-    height: 3px;
-    left: 4px;
-    bottom: 2px;
-    transform-origin: 1px 1px;
-  }
-  .checkbox .custom-checkbox::before {
-    transform: rotate(-45deg);
-    width: 14px;
-  }
-  .checkbox .custom-checkbox::after {
-    transform: rotate(-135deg);
-    width: 8px;
-  }
+.custom-checkbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.custom-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+
+}
+.custom-checkbox input:checked ~ .checkmark {
+  border: 1px solid #0000a0;
+  background: #0000a0;
+}
+.custom-checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.custom-checkbox .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border: 2px solid #0000a0;
+  background-color: #fff;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.custom-checkbox .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 4px;
+  bottom: 3px;
+  width: 10px;
+  height: 16px;
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
