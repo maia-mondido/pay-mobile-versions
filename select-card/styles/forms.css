@@ -27,8 +27,7 @@
     background: #00075A;
     color: #fff;
     margin: 15px 0;
-    max-height: 10vh;
-    max-height: 90vh;
+    max-height: 95vh;
     border-radius: 10px;
   }
   
@@ -126,6 +125,10 @@
     .card-select-pay-method {
       margin-left: 15%;
 
+    }
+
+    .card-order {
+      max-height: 75vh;
     }
     
     footer {
